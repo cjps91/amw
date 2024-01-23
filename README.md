@@ -4,7 +4,7 @@
 
 ![](doc/AlexSings.gif)
 
-This webapp is the official web for Alex MayBe, an andalusian musician. It provides all the information that their fans need, including events information (dates, location, etc...), updates, lyrics posts, contact and social network integration. It also provides a section to manage all events, updates, lyrics posts and messages from the contact section, accessible only to him (and/or someone who he authorizes).
+This webapp would be the official web for Alex MayBe, an andalusian musician, in case he ever needs it. It provides all the information that their fans need, including events information (dates, location, etc...), updates, lyrics posts, contact and social network integration. It also provides a section to manage all events, updates, lyrics posts and messages from the contact section, accessible only to him (and/or someone who he authorizes).
 
 It uses React, Tailwind CSS, HeadlessUI, NextJS, MongoDB and Mongoose. API written in JavaScript, App written in TypeScript.
 
