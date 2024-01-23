@@ -10,7 +10,9 @@ It uses React, Tailwind CSS, HeadlessUI, NextJS, MongoDB and Mongoose. API writt
 
 ## Functional description
 
-### Use cases
+<details>
+
+<summary> Use cases </summary>
 
 - add administrator
 - authenticate administrator
@@ -41,10 +43,13 @@ It uses React, Tailwind CSS, HeadlessUI, NextJS, MongoDB and Mongoose. API writt
 - see lyric post
 - create message
 
+</details>
 
 ## Technical description
 
-### Data model
+<details>
+
+<summary> Data model </summary>
 
 Administrator
 - id (oid)
@@ -98,6 +103,7 @@ Social Networks
 - id (string)
 - name (string)
 - link (string)
+</details>
 
 ### Test Coverage
 
@@ -108,7 +114,10 @@ Design will be managed with Figma: https://www.figma.com/file/M8POaubUvK4RN7R1Xi
 ## Planning
 Planning will be managed with Trello: https://trello.com/invite/b/Sw9wR2tM/ATTIa767f6a0e5966b75f726de8b3eedf89740CE1060/amw
 
-### Epics & Stories
+
+<details>
+
+<summary>Epics & Stories </summary>
 
 #### Add Administrator
 
@@ -304,3 +313,44 @@ Planning will be managed with Trello: https://trello.com/invite/b/Sw9wR2tM/ATTIa
 ##### Task
 
 - Implement see lyric post
+
+</details>
+
+## Installing Considerations
+
+If you would like to try this software, you need to have installed and configured MongoDB, Mongosh and Node.
+
+With that completed, you need to install all the packages needed in both tha API and the App. Use:
+
+```
+npm i
+```
+
+That should install them.
+
+You will need to add a .env file to the API's root directory with this structure:
+
+```
+PORT = 4321
+DB_PATH = ./amw
+MONGODB_URL = mongodb://127.0.0.1:27017/amw
+JWT_SECRET = write a secret line here
+JWT_EXPIRATION = 1d
+```
+
+As well as a .env.local file at the App's root directory with this structure:
+
+```
+API_BASE_URL=http://localhost:4321/
+```
+That applies to Admin's App too.
+
+You may need test data so, once you have the database and the API running, run the file named test.js that you will find at api/data.
+
+You also have an Insomnia file in that folder, in case you want to do a more extensive approach to your API testing. Remember to log in to the existing user or create and login to a new user. This API uses tokens, so save your token, you may need it.
+
+And... There you go!
+
+I really hope you like this project. I'm open to any comment or pull request, improving is one of my goals for this project.
+
+Thank you!
