@@ -320,7 +320,7 @@ Planning will be managed with Trello: https://trello.com/invite/b/Sw9wR2tM/ATTIa
 
 If you would like to try this software, you need to have installed and configured MongoDB, Mongosh and Node.
 
-With that completed, you need to install all the packages needed in both tha API and the App. Use:
+With that completed, you need to install all the packages needed in both the API and the App. Use:
 
 ```
 npm i
@@ -345,9 +345,9 @@ API_BASE_URL=http://localhost:4321/
 ```
 That applies to Admin's App too.
 
-You may need test data so, once you have the database and the API running, run the file named test.js that you will find at api/data.
+You may need to test data so, once you have the database and the API running, run the file named test.js that you will find at api/data.
 
-You also have an Insomnia file in that folder, in case you want to do a more extensive approach to your API testing. Remember to log in to the existing user or create and login to a new user. This API uses tokens, so save your token, you may need it.
+You also have an Insomnia file in that folder, in case you want to do a more extensive approach to your manual API testing. Remember to log in to the existing user or create and login to a new user. This API uses tokens, so save your token, you may need it. This poject is ready to use Mocha and Chai for testing, so you can use that too.
 
 And... There you go!
 
