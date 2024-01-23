@@ -2,7 +2,7 @@
 
 ## Intro
 
-![](./AlexSings.gif)
+![](doc/AlexSings.gif)
 
 This webapp is the official web for Alex MayBe, an andalusian musician. It provides all the information that their fans need, including events information (dates, location, etc...), updates, lyrics posts, contact and social network integration. It also provides a section to manage all events, updates, lyrics posts and messages from the contact section, accessible only to him (and/or someone who he authorizes).
 
@@ -101,7 +101,7 @@ Social Networks
 
 ### Test Coverage
 
-![](./coverage.png)
+![](doc/coverage.png)
 
 ## Design
 Design will be managed with Figma: https://www.figma.com/file/M8POaubUvK4RN7R1Xidmv6/AMW?type=design&node-id=0%3A1&mode=design&t=qOYEB5PC6ZbirbBk-1
