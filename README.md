@@ -347,7 +347,7 @@ That applies to Admin's App too.
 
 You may need to test data so, once you have the database and the API running, run the file named test.js that you will find at api/data.
 
-You also have an Insomnia file in that folder, in case you want to do a more extensive approach to your manual API testing. Remember to log in to the existing user or create and login to a new user. This API uses tokens, so save your token, you may need it. This poject is ready to use Mocha and Chai for testing, so you can use that too.
+You also have an Insomnia file in that folder, in case you want to do a more extensive approach to your manual API testing. Remember to log in to the existing user or create and login to a new user. This API uses tokens, so save your token, you may need it. This project is ready to use Mocha and Chai for testing, so you can use that too.
 
 And... There you go!
 
